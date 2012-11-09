@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5pt" >
+
+    <TextView
+        android:id="@+id/jdl_pilihan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10pt"
+        android:text="@string/pilihan"
+        android:textSize="10pt"
+        tools:context=".PilihanCalonActivity" />
+
+    <ImageButton
+        android:id="@+id/pil1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="3pt"
+        android:layout_below="@+id/jdl_pilihan"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/pilihan"
+        android:scaleType="fitXY"
+        android:src="@drawable/ios6" />
+
+    <ImageButton
+        android:id="@+id/pil2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="3pt"
+        android:layout_below="@+id/jdl_pilihan"
+        android:layout_toRightOf="@+id/pil1"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/pilihan"
+        android:scaleType="fitXY"
+        android:src="@drawable/android" />
+
+    <ImageButton
+        android:id="@+id/pil3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="3pt"
+        android:layout_below="@+id/jdl_pilihan"
+        android:layout_toRightOf="@+id/pil2"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/pilihan"
+        android:scaleType="fitXY"
+        android:src="@drawable/windows" />
+
+    <TextView
+        android:id="@+id/pesan_pilihan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pil3"
+        android:layout_marginTop="10pt"
+        android:layout_centerHorizontal="true"
+        android:text="@string/pesan_pilihan"
+        tools:context=".PilihanCalonActivity" />
+
+</RelativeLayout>

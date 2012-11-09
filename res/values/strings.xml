@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">eVote</string>
+    <string name="judul">Form Login</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_login">Sistem eVote</string>
+    <string name="id">ID</string>
+    <string name="nama">Nama</string>
+    <string name="btn_mulai">MULAI</string>
+    <string name="btn_pilih">MULAI MEMILIH</string>
+    <string name="btn_rekap">LIHAT REKAP</string>
+    <string name="btn_back">UTAMA</string>
+    <string name="pilihan">PILIH OS FAVORIT Anda</string>
+    <string name="pesan_pilihan"></string>
+    <string name="hsl_pilihan">ANDA MEMILIH</string>
+    <string name="title_activity_dashboard">Sistem eVote</string>
+    <string name="title_activity_pilihan_calon">Vote Calon Ketua</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_rekap">Hasil Rekapitulasi</string>
+    <string name="title_activity_hasil_pilihan">Hasil Pilihan</string>
+
+</resources>

@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5pt" >
+
+    <TextView
+        android:id="@+id/lbl_hasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10pt"
+        android:text="@string/hsl_pilihan"
+        android:textSize="10pt" />
+
+    <ImageView
+        android:id="@+id/hsl_pil"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_margin="3pt"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/lbl_hasil"
+        android:contentDescription="@string/hsl_pilihan"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"/>
+
+     <Button
+        android:id="@+id/btn_utama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10pt"
+        android:layout_below="@+id/hsl_pil"
+        android:text="@string/btn_back"
+        android:textSize="10pt"
+        android:onClick="back_utama"
+        />
+     
+</RelativeLayout>

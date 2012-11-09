@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5pt"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="3pt"
+        android:text="@string/judul"
+        android:textSize="10pt"
+        tools:context=".LoginActivity" />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/id"
+        android:textSize="8pt"
+        android:width="25pt"
+        tools:context=".LoginActivity" />
+
+    <EditText
+        android:id="@+id/txt_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        tools:context=".LoginActivity" />
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nama"
+        android:textSize="8pt"
+        android:width="25pt"
+        tools:context=".LoginActivity" />
+
+    <EditText
+        android:id="@+id/txt_nama"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        tools:context=".LoginActivity" />
+
+    <Button
+        android:id="@+id/btn_mulai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="3pt"
+        android:text="@string/btn_mulai"
+        android:textSize="10pt"
+        android:width="50pt"
+        android:onClick="login"
+        tools:context=".LoginActivity" />
+
+</LinearLayout>

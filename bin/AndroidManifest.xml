@@ -1,0 +1,55 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.justudin.evote"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DashboardActivity"
+            android:label="@string/title_activity_dashboard" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PilihanCalonActivity"
+            android:label="@string/title_activity_pilihan_calon" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.justudin.evote.LoginActivity" />
+        </activity>
+        <activity
+            android:name=".RekapActivity"
+            android:label="@string/title_activity_rekap" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.justudin.evote.LoginActivity" />
+        </activity>
+        <activity
+            android:name=".HasilPilihanActivity"
+            android:label="@string/title_activity_hasil_pilihan" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.justudin.evote.LoginActivity" />
+        </activity>
+    </application>
+
+</manifest>
