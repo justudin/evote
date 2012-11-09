@@ -2,16 +2,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent" 
-    android:layout_margin="5pt">
+    android:layout_margin="2pt"
+    android:background="@drawable/bg2">
 
      <TextView
         android:id="@+id/lbl_rekap"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="10pt"
-        android:text="@string/title_activity_rekap"
-        android:textSize="10pt" />
+        android:layout_marginBottom="15pt"
+          android:textSize="13pt"
+        android:textColor="#ffffff"
+        android:layout_marginTop="13pt"
+        android:text="@string/title_activity_rekap" />
 	
 	<TextView
         android:id="@+id/pil1"
@@ -21,6 +24,7 @@
         android:layout_below="@+id/lbl_rekap"
         android:width="100dp"
         android:text="iOS"
+        android:layout_marginLeft="17pt"
         android:textSize="7pt" 
         />
 	<TextView
@@ -40,6 +44,7 @@
         android:layout_marginBottom="10pt"
         android:layout_below="@+id/pil1"
         android:width="100dp"
+        android:layout_marginLeft="17pt"
         android:text="Android"
         android:textSize="7pt" 
         />
@@ -60,6 +65,7 @@
         android:layout_marginBottom="10pt"
         android:layout_below="@+id/pil2"
         android:width="100dp"
+        android:layout_marginLeft="17pt"
         android:text="Windows 8"
         android:textSize="7pt" 
         />
@@ -79,6 +85,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="10pt"
+        android:layout_marginTop="35pt"
         android:layout_below="@+id/pil3"
         android:text="@string/btn_back"
         android:textSize="10pt"

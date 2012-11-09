@@ -18,7 +18,7 @@ public class PilihanCalonActivity extends Activity implements OnClickListener {
 	public final static String EXTRA_MESSAGE = "com.justudin.evote.MESSAGE";
 	final Context context = this;
 	private ImageButton pil1, pil2, pil3;
-	private String pesan, txt;
+	private String pesan;
 	private int op;
 
 	@Override
@@ -112,7 +112,18 @@ public class PilihanCalonActivity extends Activity implements OnClickListener {
 	}
 
 	public void kirim_pilihan(int a) {
-		txt = String.valueOf(a);
+		switch(a)
+		{
+		case 1:
+			LoginActivity.pil1.setJumlah1();
+			break;
+		case 2:
+			LoginActivity.pil2.setJumlah1();
+			break;			
+		case 3:
+			LoginActivity.pil3.setJumlah1();
+			break;
+		}
 		Intent kir_pil = new Intent(getApplicationContext(),
 				HasilPilihanActivity.class);
 		kir_pil.putExtra(EXTRA_MESSAGE, a);

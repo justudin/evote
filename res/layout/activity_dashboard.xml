@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="5pt"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:background="@drawable/bg2" >
 
       <TextView
         android:id="@+id/judul"
@@ -12,21 +13,26 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="3pt"
         android:text="@string/title_activity_login"
-        android:textSize="10pt"
+        android:textSize="13pt"
+        android:textColor="#ffffff"
+        android:layout_marginTop="13pt"
         tools:context=".LoginActivity" />
       
     <TextView
         android:id="@+id/status"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="15pt"
+        android:layout_marginTop="10pt"
+        android:text="disini"/>
 
     <Button
         android:id="@+id/btn_pilih"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="40pt"
-        android:layout_marginBottom="10pt"
+        android:layout_marginTop="60pt"
+        android:layout_marginBottom="3pt"
         android:text="@string/btn_pilih"
         android:onClick="buka_pilih"
         android:textSize="10pt"

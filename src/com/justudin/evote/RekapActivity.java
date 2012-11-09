@@ -25,9 +25,9 @@ public class RekapActivity extends Activity {
         jml3 = (TextView) findViewById(R.id.jml3);
         
     
-        jml1.setText("0");
-        jml2.setText("0");
-        jml3.setText("0");
+        jml1.setText(": "+LoginActivity.pil1.getJumlah().toString());
+        jml2.setText(": "+LoginActivity.pil2.getJumlah().toString());
+        jml3.setText(": "+LoginActivity.pil3.getJumlah().toString());
         
     }
 

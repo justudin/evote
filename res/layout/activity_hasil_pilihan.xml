@@ -2,16 +2,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="5pt" >
+    android:layout_margin="4pt" 
+        android:background="@drawable/bg2">
 
     <TextView
         android:id="@+id/lbl_hasil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="12pt"
         android:layout_marginBottom="10pt"
         android:text="@string/hsl_pilihan"
-        android:textSize="10pt" />
+        android:textColor="#ffffff"
+        android:textSize="12pt" />
 
     <ImageView
         android:id="@+id/hsl_pil"
@@ -33,6 +36,7 @@
         android:layout_below="@+id/hsl_pil"
         android:text="@string/btn_back"
         android:textSize="10pt"
+        android:layout_marginTop="30pt"
         android:onClick="back_utama"
         />
      

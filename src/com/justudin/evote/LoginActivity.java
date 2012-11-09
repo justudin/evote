@@ -10,6 +10,11 @@ import android.widget.EditText;
 public class LoginActivity extends Activity {
 	public final static String EXTRA_MESSAGE = "com.justudin.evote.MESSAGE";
 
+	public static LibEvote pil1 = new LibEvote(1, 0);
+	public static LibEvote pil2 = new LibEvote(2, 0);
+	public static LibEvote pil3 = new LibEvote(3, 0);
+	
+	
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
